@@ -1,4 +1,4 @@
 # Kohonen_SOM
 A simple Python implementation of a Kohonen Self-Organizing Map.
 
-A SOM is a neural network that, after training through unsupervised learning, can produce low dimensional representations of its inputs. 
+A SOM is a neural network that, after training through unsupervised learning, can produce low dimensional representations of its inputs. Created using NumPy and Matplotlib.
