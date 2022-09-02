@@ -8,7 +8,6 @@ This program plots a Kohonen Self Organizing Map over various data shapes.
 import numpy as np
 import matplotlib.pyplot as plt
 
-
 class som(object):
     """
     Class for self organizing map object
@@ -64,7 +63,6 @@ class som(object):
         plt.title("M=10 alpha0=0.02 d0=4 T=4000")
         plt.show()
 
-
     def learn(self, data, T, alpha0, d0):
         """
         Simulates learning process for SOM
@@ -93,7 +91,6 @@ class som(object):
                for k in range(kbeg, kend):
                     self.u[j, k] += alpha * (e - self.u[j, k])            
 
-
     def winner(self, e):
         """
         Finds winning unit whose weights are closest to input 'e'
@@ -112,7 +109,6 @@ class som(object):
                     jwin, kwin = j,k
                     
         return jwin, kwin
-
 
 def main():
 
